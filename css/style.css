@@ -5,13 +5,25 @@
   font-family: "Roboto", sans-serif;
   box-sizing: border-box;
 }
+.Animated-Radial-Menu {
+  max-width: 100%; /* Garantiza que la imagen no exceda el ancho del contenedor */
+  max-height: 100%; /* Garantiza que la imagen no exceda la altura del contenedor */
+  text-align: center; /* Centra la imagen dentro del contenedor */
+}
 
+.Animated-Radial-Menu img {
+  width: 50%; /* Hace que la imagen ocupe el 100% del ancho del contenedor */
+  height: 50%; /* Mantiene la proporción original de la imagen ajustando la altura automáticamente */
+}
 .Animated-Radial-Menu {
   display: flex;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background: #2f363e;
+  background: #2e353f;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 .Animated-Radial-Menu .menu {
   position: relative;
